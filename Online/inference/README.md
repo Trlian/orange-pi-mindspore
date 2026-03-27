@@ -12,7 +12,7 @@
 | 模型名 | 支持CANN版本 | 支持Mindspore版本 | 支持的香橙派开发板型号 |
 | :----- |:----- |:----- |:-----|
 | [ResNet50](https://github.com/mindspore-courses/orange-pi-mindspore/tree/master/Online/inference/02-ResNet50) | 8.1.RC1  | 2.6.0| 8T8G |
-|[ViT](https://github.com/mindspore-courses/orange-pi-mindspore/tree/master/Online/inference/03-ViT)| 8.0.RC3.alpha002  | 2.4.10| 8T16G |
+|[ViT](https://github.com/mindspore-courses/orange-pi-mindspore/tree/master/Online/inference/03-ViT)| 8.0.RC3.alpha002/8.1RC1 | 2.4.10/2.6.0 | 8T16G |
 |[FCN](https://github.com/mindspore-courses/orange-pi-mindspore/tree/master/Online/inference/04-FCN)| 8.0.RC3.alpha002  | 2.4.10| 8T16G |
 |[ShuffleNet](https://github.com/mindspore-courses/orange-pi-mindspore/tree/master/Online/inference/05-ShuffleNet)| 8.0.RC3.alpha002  | 2.4.10| 8T16G |
 |[SSD](https://github.com/mindspore-courses/orange-pi-mindspore/tree/master/Online/inference/06-SSD)|8.1.RC1  | 2.6.0| 8T8G |
@@ -28,8 +28,7 @@
 |[DctNet](https://github.com/mindspore-courses/orange-pi-mindspore/tree/master/Online/inference/16-DctNet)  |8.0.RC3.alpha002  | 2.4.10| 8T16G |
 |[DeepSeek-R1-Distill-Qwen-1.5B](https://github.com/mindspore-courses/orange-pi-mindspore/tree/master/Online/inference/17-DeepSeek-R1-Distill-Qwen-1.5B)  |8.0.RC3.alpha002/8.0.0.beta1/8.1.RC1.beta1  | 2.4.10/2.5.0/2.6.0| 20T24G |
 |[DeepSeek-Janus-Pro-1B](https://github.com/mindspore-courses/orange-pi-mindspore/tree/master/Online/inference/18-DeepSeek-Janus-Pro-1B) | 8.0.RC3.alpha002/8.0.0beta1 | 2.4.10/2.5.0| 20T24G |
-|[MiniCPM3-4B](https://github.com/mindspore-courses/orange-pi-mindspore/tree/master/Online/inference/19-MiniCPM3) | 8.0.0beta1 | 2.5.0| 20T24G |
-|[Qwen2-0.5B-Instruct](https://github.com/mindspore-courses/orange-pi-mindspore/tree/master/Online/inference/20-Qwen2-0.5B-Instruct) | 8.1RC1 | 2.6.0              | 20T24G |
+|[MiniCPM3-4B](https://github.com/mindspore-courses/orange-pi-mindspore/tree/master/Online/inference/19-MiniCPM3) | 8.0.0beta1 | 2.5.0| 20T24 |
 
 
 
@@ -364,7 +363,6 @@ git clone https://github.com/mindspore-courses/orange-pi-mindspore.git
 17-DeepSeek-R1-Distill-Qwen-1.5B
 18-DeepSeek-Janus-Pro-1B
 19-MiniCPM3
-20-Qwen2-0.5B-Instruct
 ```
 
 ### 2. 推理执行（案例01-13）
